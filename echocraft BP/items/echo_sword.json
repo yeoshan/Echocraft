@@ -1,0 +1,65 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "echocraft:echo_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "echocraft:echo_sword",
+			"minecraft:display_name": {
+				"value": "Echo Sword"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 9,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:durability": {
+				"max_durability": 2150,
+				"damage_chance": {
+					"min": 1,
+					"max": 100
+				}
+			},
+			"minecraft:mining_speed": 1.5,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 15
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_sword",
+					"minecraft:netherite_tier",
+					"minecraft:is_tool",
+					"minecraft:transformable_items"
+				]
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"echocraft:broken_soul"
+						],
+						"repair_amount": "math.min(q.remaining_durability+c.other->q.remaining_durability+math.floor(q.max_durability/20),c.other->q.max_durability)"
+					}
+				]
+			},
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 13
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 13
+					}
+				]
+			}
+		}
+	}
+}

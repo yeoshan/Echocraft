@@ -1,0 +1,18 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "echocraft:soul_dust",
+					"weight": 15
+				},
+				{
+					"type": "empty",
+					"weight": 75
+				}
+			]
+		}
+	]
+}

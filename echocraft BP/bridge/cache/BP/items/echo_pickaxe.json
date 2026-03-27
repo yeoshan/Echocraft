@@ -1,0 +1,674 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\echo_pickaxe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "e0642d16_cb86_4da7_9771_0ca14235b0be",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_pickaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.pickaxe"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Pickaxe"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_pickaxe"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"min": 100,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 1,
+							"minecraft:enchantable": {
+								"slot": "pickaxe",
+								"value": 13
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"echocraft:broken_soul"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {},
+								"on_hit_block": {}
+							},
+							"minecraft:damage": 4,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": {
+											"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+										},
+										"speed": 10
+									},
+									{
+										"block": "minecraft:ice",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:sandstone",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:concrete",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_pickaxe": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"data": "1.20.20",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_pickaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.pickaxe"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Pickaxe"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_pickaxe"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"min": 100,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 1,
+							"minecraft:enchantable": {
+								"slot": "pickaxe",
+								"value": 13
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"echocraft:broken_soul"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {},
+								"on_hit_block": {}
+							},
+							"minecraft:damage": 4,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": {
+											"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+										},
+										"speed": 10
+									},
+									{
+										"block": "minecraft:ice",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:sandstone",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:concrete",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_pickaxe": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:echo_pickaxe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_pickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.pickaxe"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Pickaxe"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_pickaxe"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:enchantable": {
+									"slot": "pickaxe",
+									"value": 13
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 4,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+											},
+											"speed": 10
+										},
+										{
+											"block": "minecraft:ice",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:sandstone",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:concrete",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_pickaxe": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.pickaxe"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Echo Pickaxe"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:echo_pickaxe"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:durability",
+								"children": [
+									{
+										"data": "2150",
+										"key": "max_durability"
+									},
+									{
+										"open": {
+											"max_durability": 2150,
+											"damage_chance": {
+												"min": 100,
+												"max": 100
+											}
+										},
+										"key": "damage_chance",
+										"is_minified": true,
+										"children": {
+											"min": 100,
+											"max": 100
+										}
+									}
+								]
+							},
+							{
+								"data": "1",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "pickaxe",
+									"value": 13
+								}
+							},
+							{
+								"key": "minecraft:repairable",
+								"children": [
+									{
+										"open": {
+											"repair_items": [
+												{
+													"items": [
+														"echocraft:broken_soul"
+													],
+													"repair_amount": "query.max_durability"
+												}
+											]
+										},
+										"key": "repair_items",
+										"children": [
+											{
+												"open": [
+													{
+														"items": [
+															"echocraft:broken_soul"
+														],
+														"repair_amount": "query.max_durability"
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"echocraft:broken_soul"
+															],
+															"repair_amount": "query.max_durability"
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"echocraft:broken_soul"
+														]
+													},
+													{
+														"data": "query.max_durability",
+														"key": "repair_amount"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.pickaxe"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Pickaxe"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_pickaxe"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:enchantable": {
+										"slot": "pickaxe",
+										"value": 13
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"echocraft:broken_soul"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 4,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": {
+													"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+												},
+												"speed": 10
+											},
+											{
+												"block": "minecraft:ice",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:sandstone",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:concrete",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								}
+							},
+							{
+								"data": "4",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": {
+														"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+													},
+													"speed": 10
+												},
+												{
+													"block": "minecraft:ice",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:sandstone",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:concrete",
+													"speed": 10
+												}
+											]
+										},
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"is_minified": true,
+												"children": {
+													"block": {
+														"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+													},
+													"speed": 10
+												}
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+														},
+														"speed": 10
+													},
+													{
+														"block": "minecraft:ice",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:sandstone",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:concrete",
+														"speed": 10
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:ice",
+													"speed": 10
+												}
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+														},
+														"speed": 10
+													},
+													{
+														"block": "minecraft:ice",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:sandstone",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:concrete",
+														"speed": 10
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:sandstone",
+													"speed": 10
+												}
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+														},
+														"speed": 10
+													},
+													{
+														"block": "minecraft:ice",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:sandstone",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:concrete",
+														"speed": 10
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:concrete",
+													"speed": 10
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_pickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.pickaxe"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Pickaxe"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_pickaxe"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:enchantable": {
+									"slot": "pickaxe",
+									"value": 13
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 4,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+											},
+											"speed": 10
+										},
+										{
+											"block": "minecraft:ice",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:sandstone",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:concrete",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_pickaxe": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_tool_use": {
+										"tag:minecraft:is_pickaxe": {},
+										"tag:minecraft:is_tool": {}
+									}
+								},
+								"key": "on_tool_use",
+								"is_minified": true,
+								"children": {
+									"tag:minecraft:is_pickaxe": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

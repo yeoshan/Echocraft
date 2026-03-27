@@ -1,0 +1,587 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\echo_sword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5f8bd0a6_a404_4ac0_8aa9_33cdfd445472",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_sword"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Sword"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:weapon": {
+								"on_hurt_entity": {},
+								"on_hit_block": {}
+							},
+							"minecraft:damage": 9,
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"min": 100,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 13
+							},
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_sword": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"data": "1.20.20",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_sword"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Sword"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:weapon": {
+								"on_hurt_entity": {},
+								"on_hit_block": {}
+							},
+							"minecraft:damage": 9,
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"min": 100,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 13
+							},
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_sword": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_sword"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Sword"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 9,
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 13
+								},
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_sword": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:echo_sword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_sword"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Sword"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 9,
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 13
+								},
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_sword": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:echo_sword"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Echo Sword"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Sword"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 9,
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 13
+									},
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								}
+							},
+							{
+								"data": "9",
+								"key": "minecraft:damage"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Sword"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 9,
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 13
+									},
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"children": [
+									{
+										"data": "2150",
+										"key": "max_durability"
+									},
+									{
+										"open": {
+											"max_durability": 2150,
+											"damage_chance": {
+												"min": 100,
+												"max": 100
+											}
+										},
+										"key": "damage_chance",
+										"is_minified": true,
+										"children": {
+											"min": 100,
+											"max": 100
+										}
+									}
+								]
+							},
+							{
+								"data": "1.5",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 13
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_sword"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Sword"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 9,
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 13
+									},
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"data": "false",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": false,
+											"destroy_speeds": [
+												{
+													"block": "minecraft:web",
+													"speed": 15
+												},
+												{
+													"block": "minecraft:bamboo",
+													"speed": 10
+												}
+											]
+										},
+										"key": "destroy_speeds",
+										"is_minified": true,
+										"children": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_sword"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Sword"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 9,
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 13
+								},
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_sword": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_tool_use": {
+										"tag:minecraft:is_sword": {},
+										"tag:minecraft:is_tool": {}
+									}
+								},
+								"key": "on_tool_use",
+								"is_minified": true,
+								"children": {
+									"tag:minecraft:is_sword": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

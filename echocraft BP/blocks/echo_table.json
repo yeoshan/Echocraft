@@ -1,0 +1,51 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "echocraft:echo_table",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:destructible_by_explosion": true,
+			"minecraft:friction": 0.4,
+			"minecraft:light_dampening": 15,
+			"minecraft:light_emission": 0,
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"crafting_tags": [
+					"echo_table"
+				]
+			},
+			"minecraft:display_name": "Echo Table",
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "echocraft:echo_table_top"
+				},
+				"up": {
+					"texture": "echocraft:echo_table_top"
+				},
+				"north": {
+					"texture": "echocraft:echo_table_front"
+				},
+				"south": {
+					"texture": "echocraft:echo_table_front"
+				},
+				"east": {
+					"texture": "echocraft:echo_table_side"
+				},
+				"west": {
+					"texture": "echocraft:echo_table_side"
+				},
+				"down": {
+					"texture": "echocraft:echo_table_bottom"
+				}
+			}
+		}
+	}
+}

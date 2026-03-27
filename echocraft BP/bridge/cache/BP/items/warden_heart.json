@@ -1,0 +1,274 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\warden_heart.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "c3785c45_fb13_44b1_91c0_16bbc54a4774",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:warden_heart",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "echocraft:warden_heart"
+							},
+							"minecraft:display_name": {
+								"value": "Warden Heart"
+							},
+							"minecraft:wearable": {
+								"dispensable": true,
+								"slot": "slot.armor.chest"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:durability": {
+								"max_durability": 150
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.chestplate"
+							}
+						}
+					}
+				},
+				"data": "1.20.20",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:warden_heart",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:icon": {
+								"texture": "echocraft:warden_heart"
+							},
+							"minecraft:display_name": {
+								"value": "Warden Heart"
+							},
+							"minecraft:wearable": {
+								"dispensable": true,
+								"slot": "slot.armor.chest"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:durability": {
+								"max_durability": 150
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.chestplate"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:warden_heart",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "echocraft:warden_heart"
+								},
+								"minecraft:display_name": {
+									"value": "Warden Heart"
+								},
+								"minecraft:wearable": {
+									"dispensable": true,
+									"slot": "slot.armor.chest"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:durability": {
+									"max_durability": 150
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.chestplate"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:warden_heart",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:warden_heart",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:icon": {
+									"texture": "echocraft:warden_heart"
+								},
+								"minecraft:display_name": {
+									"value": "Warden Heart"
+								},
+								"minecraft:wearable": {
+									"dispensable": true,
+									"slot": "slot.armor.chest"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:durability": {
+									"max_durability": 150
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.chestplate"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "echocraft:warden_heart"
+									},
+									"minecraft:display_name": {
+										"value": "Warden Heart"
+									},
+									"minecraft:wearable": {
+										"dispensable": true,
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:warden_heart"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "echocraft:warden_heart"
+									},
+									"minecraft:display_name": {
+										"value": "Warden Heart"
+									},
+									"minecraft:wearable": {
+										"dispensable": true,
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Warden Heart"
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "echocraft:warden_heart"
+									},
+									"minecraft:display_name": {
+										"value": "Warden Heart"
+									},
+									"minecraft:wearable": {
+										"dispensable": true,
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"dispensable": true,
+									"slot": "slot.armor.chest"
+								}
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "echocraft:warden_heart"
+									},
+									"minecraft:display_name": {
+										"value": "Warden Heart"
+									},
+									"minecraft:wearable": {
+										"dispensable": true,
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 150
+								}
+							},
+							{
+								"open": {
+									"minecraft:icon": {
+										"texture": "echocraft:warden_heart"
+									},
+									"minecraft:display_name": {
+										"value": "Warden Heart"
+									},
+									"minecraft:wearable": {
+										"dispensable": true,
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:max_stack_size": 1,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.chestplate"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1040 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\echo_hoe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "8514943b_4317_451b_be39_7bce3dabc5b7",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_hoe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.hoe"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Hoe"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_hoe"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"max": 100,
+									"min": 100
+								}
+							},
+							"minecraft:mining_speed": 8,
+							"minecraft:enchantable": {
+								"slot": "hoe",
+								"value": 13
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"echocraft:broken_soul"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {
+									"event": "dmg"
+								},
+								"on_not_hurt_entity": {
+									"event": "dmg"
+								},
+								"on_hit_block": {
+									"event": "dmg"
+								}
+							},
+							"minecraft:damage": 2,
+							"minecraft:use_on": {
+								"blocks": [
+									"grass",
+									"dirt",
+									"grass_path"
+								]
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:hay_block",
+										"speed": 10
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:leaves"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sculk_vein"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sculk_shrieker"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sculk"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:shroomlight"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:verdant_froglight"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:pearlescent_froglight"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:ochre_froglight"
+									},
+									{
+										"block": "minecraft:sculk_catalyst",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:nether_wart_block",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:warped_wart_block",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:sponge",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_hoe": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"data": "1.20.20",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_hoe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.hoe"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Hoe"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_hoe"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"max": 100,
+									"min": 100
+								}
+							},
+							"minecraft:mining_speed": 8,
+							"minecraft:enchantable": {
+								"slot": "hoe",
+								"value": 13
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"echocraft:broken_soul"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {
+									"event": "dmg"
+								},
+								"on_not_hurt_entity": {
+									"event": "dmg"
+								},
+								"on_hit_block": {
+									"event": "dmg"
+								}
+							},
+							"minecraft:damage": 2,
+							"minecraft:use_on": {
+								"blocks": [
+									"grass",
+									"dirt",
+									"grass_path"
+								]
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:hay_block",
+										"speed": 10
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:leaves"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sculk_vein"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sculk_shrieker"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sculk"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:shroomlight"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:verdant_froglight"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:pearlescent_froglight"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:ochre_froglight"
+									},
+									{
+										"block": "minecraft:sculk_catalyst",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:nether_wart_block",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:warped_wart_block",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:sponge",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_hoe": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:echo_hoe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_hoe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.hoe"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Hoe"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_hoe"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"max": 100,
+										"min": 100
+									}
+								},
+								"minecraft:mining_speed": 8,
+								"minecraft:enchantable": {
+									"slot": "hoe",
+									"value": 13
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "dmg"
+									},
+									"on_not_hurt_entity": {
+										"event": "dmg"
+									},
+									"on_hit_block": {
+										"event": "dmg"
+									}
+								},
+								"minecraft:damage": 2,
+								"minecraft:use_on": {
+									"blocks": [
+										"grass",
+										"dirt",
+										"grass_path"
+									]
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:hay_block",
+											"speed": 10
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:leaves"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sculk_vein"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sculk_shrieker"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sculk"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:shroomlight"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:verdant_froglight"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:pearlescent_froglight"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:ochre_froglight"
+										},
+										{
+											"block": "minecraft:sculk_catalyst",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:nether_wart_block",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:warped_wart_block",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:sponge",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_hoe": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.hoe"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Echo Hoe"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:echo_hoe"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.hoe"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Hoe"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_hoe"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"max": 100,
+											"min": 100
+										}
+									},
+									"minecraft:mining_speed": 8,
+									"minecraft:enchantable": {
+										"slot": "hoe",
+										"value": 13
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"echocraft:broken_soul"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "dmg"
+										},
+										"on_not_hurt_entity": {
+											"event": "dmg"
+										},
+										"on_hit_block": {
+											"event": "dmg"
+										}
+									},
+									"minecraft:damage": 2,
+									"minecraft:use_on": {
+										"blocks": [
+											"grass",
+											"dirt",
+											"grass_path"
+										]
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:hay_block",
+												"speed": 10
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:leaves"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sculk_vein"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sculk_shrieker"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sculk"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:shroomlight"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:verdant_froglight"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:pearlescent_froglight"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:ochre_froglight"
+											},
+											{
+												"block": "minecraft:sculk_catalyst",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:nether_wart_block",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:warped_wart_block",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:sponge",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"max": 100,
+										"min": 100
+									}
+								}
+							},
+							{
+								"data": "8",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "hoe",
+									"value": 13
+								}
+							},
+							{
+								"key": "minecraft:repairable",
+								"is_minified": true,
+								"children": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {
+									"on_hurt_entity": {
+										"event": "dmg"
+									},
+									"on_not_hurt_entity": {
+										"event": "dmg"
+									},
+									"on_hit_block": {
+										"event": "dmg"
+									}
+								}
+							},
+							{
+								"data": "2",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:use_on",
+								"children": [
+									{
+										"open": {
+											"blocks": [
+												"grass",
+												"dirt",
+												"grass_path"
+											]
+										},
+										"key": "blocks",
+										"is_minified": true,
+										"children": [
+											"grass",
+											"dirt",
+											"grass_path"
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": "minecraft:hay_block",
+													"speed": 10
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:leaves"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:sculk_vein"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:sculk_shrieker"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:sculk"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:shroomlight"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:verdant_froglight"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:pearlescent_froglight"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:ochre_froglight"
+												},
+												{
+													"block": "minecraft:sculk_catalyst",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:nether_wart_block",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:warped_wart_block",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:sponge",
+													"speed": 10
+												}
+											]
+										},
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": "minecraft:hay_block",
+													"speed": 10
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:leaves"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:sculk_vein"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:sculk_shrieker"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:sculk"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:shroomlight"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:verdant_froglight"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:pearlescent_froglight"
+												},
+												{
+													"speed": 10,
+													"block": "minecraft:ochre_froglight"
+												},
+												{
+													"block": "minecraft:sculk_catalyst",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:nether_wart_block",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:warped_wart_block",
+													"speed": 10
+												},
+												{
+													"block": "minecraft:sponge",
+													"speed": 10
+												}
+											]
+										},
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"open": [
+													{
+														"block": "minecraft:hay_block",
+														"speed": 10
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:leaves"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:sculk_vein"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:sculk_shrieker"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:sculk"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:shroomlight"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:verdant_froglight"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:pearlescent_froglight"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:ochre_froglight"
+													},
+													{
+														"block": "minecraft:sculk_catalyst",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:nether_wart_block",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:warped_wart_block",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:sponge",
+														"speed": 10
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:hay_block",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:leaves"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:sculk_vein"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:sculk_shrieker"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:sculk"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:shroomlight"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:verdant_froglight"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:pearlescent_froglight"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:ochre_froglight"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:sculk_catalyst",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:nether_wart_block",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:warped_wart_block",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:sponge",
+													"speed": 10
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_hoe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.hoe"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Hoe"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_hoe"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"max": 100,
+										"min": 100
+									}
+								},
+								"minecraft:mining_speed": 8,
+								"minecraft:enchantable": {
+									"slot": "hoe",
+									"value": 13
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "dmg"
+									},
+									"on_not_hurt_entity": {
+										"event": "dmg"
+									},
+									"on_hit_block": {
+										"event": "dmg"
+									}
+								},
+								"minecraft:damage": 2,
+								"minecraft:use_on": {
+									"blocks": [
+										"grass",
+										"dirt",
+										"grass_path"
+									]
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:hay_block",
+											"speed": 10
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:leaves"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sculk_vein"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sculk_shrieker"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sculk"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:shroomlight"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:verdant_froglight"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:pearlescent_froglight"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:ochre_froglight"
+										},
+										{
+											"block": "minecraft:sculk_catalyst",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:nether_wart_block",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:warped_wart_block",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:sponge",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_hoe": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_tool_use": {
+										"tag:minecraft:is_hoe": {},
+										"tag:minecraft:is_tool": {}
+									}
+								},
+								"key": "on_tool_use",
+								"is_minified": true,
+								"children": {
+									"tag:minecraft:is_hoe": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

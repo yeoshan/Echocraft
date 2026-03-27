@@ -1,0 +1,398 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\potion_bottle_ghost.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "820d5e86_4903_4f8b_8a04_294194357d2c",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.30",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:potion_bottle_ghost"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.bottles"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:potion_bottle_ghost"
+							},
+							"minecraft:display_name": {
+								"value": "Potion of Ghost Step"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"can_always_eat": true,
+								"nutrition": 0,
+								"using_converts_to": "minecraft:glass_bottle",
+								"on_consume": {
+									"event": "ghost"
+								}
+							},
+							"minecraft:potion": {
+								"type": "regular"
+							}
+						},
+						"events": {
+							"ghost": {
+								"add_mob_effect": {
+									"effect": "invisibility",
+									"target": "holder",
+									"duration": 15,
+									"amplifier": 0
+								}
+							}
+						}
+					}
+				},
+				"data": "1.20.30",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.30",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:potion_bottle_ghost"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.bottles"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:potion_bottle_ghost"
+							},
+							"minecraft:display_name": {
+								"value": "Potion of Ghost Step"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"can_always_eat": true,
+								"nutrition": 0,
+								"using_converts_to": "minecraft:glass_bottle",
+								"on_consume": {
+									"event": "ghost"
+								}
+							},
+							"minecraft:potion": {
+								"type": "regular"
+							}
+						},
+						"events": {
+							"ghost": {
+								"add_mob_effect": {
+									"effect": "invisibility",
+									"target": "holder",
+									"duration": 15,
+									"amplifier": 0
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:potion_bottle_ghost"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.bottles"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:potion_bottle_ghost"
+								},
+								"minecraft:display_name": {
+									"value": "Potion of Ghost Step"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"can_always_eat": true,
+									"nutrition": 0,
+									"using_converts_to": "minecraft:glass_bottle",
+									"on_consume": {
+										"event": "ghost"
+									}
+								},
+								"minecraft:potion": {
+									"type": "regular"
+								}
+							},
+							"events": {
+								"ghost": {
+									"add_mob_effect": {
+										"effect": "invisibility",
+										"target": "holder",
+										"duration": 15,
+										"amplifier": 0
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:potion_bottle_ghost"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:potion_bottle_ghost"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.bottles"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:potion_bottle_ghost"
+								},
+								"minecraft:display_name": {
+									"value": "Potion of Ghost Step"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"can_always_eat": true,
+									"nutrition": 0,
+									"using_converts_to": "minecraft:glass_bottle",
+									"on_consume": {
+										"event": "ghost"
+									}
+								},
+								"minecraft:potion": {
+									"type": "regular"
+								}
+							},
+							"events": {
+								"ghost": {
+									"add_mob_effect": {
+										"effect": "invisibility",
+										"target": "holder",
+										"duration": 15,
+										"amplifier": 0
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.bottles"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:potion_bottle_ghost"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Potion of Ghost Step"
+								}
+							},
+							{
+								"data": "drink",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.bottles"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:potion_bottle_ghost"
+									},
+									"minecraft:display_name": {
+										"value": "Potion of Ghost Step"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"can_always_eat": true,
+										"nutrition": 0,
+										"using_converts_to": "minecraft:glass_bottle",
+										"on_consume": {
+											"event": "ghost"
+										}
+									},
+									"minecraft:potion": {
+										"type": "regular"
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									},
+									{
+										"data": "0",
+										"key": "nutrition"
+									},
+									{
+										"data": "minecraft:glass_bottle",
+										"key": "using_converts_to"
+									},
+									{
+										"open": {
+											"can_always_eat": true,
+											"nutrition": 0,
+											"using_converts_to": "minecraft:glass_bottle",
+											"on_consume": {
+												"event": "ghost"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "ghost"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.bottles"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:potion_bottle_ghost"
+									},
+									"minecraft:display_name": {
+										"value": "Potion of Ghost Step"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"can_always_eat": true,
+										"nutrition": 0,
+										"using_converts_to": "minecraft:glass_bottle",
+										"on_consume": {
+											"event": "ghost"
+										}
+									},
+									"minecraft:potion": {
+										"type": "regular"
+									}
+								},
+								"key": "minecraft:potion",
+								"is_minified": true,
+								"children": {
+									"type": "regular"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:potion_bottle_ghost"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.bottles"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:potion_bottle_ghost"
+								},
+								"minecraft:display_name": {
+									"value": "Potion of Ghost Step"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"can_always_eat": true,
+									"nutrition": 0,
+									"using_converts_to": "minecraft:glass_bottle",
+									"on_consume": {
+										"event": "ghost"
+									}
+								},
+								"minecraft:potion": {
+									"type": "regular"
+								}
+							},
+							"events": {
+								"ghost": {
+									"add_mob_effect": {
+										"effect": "invisibility",
+										"target": "holder",
+										"duration": 15,
+										"amplifier": 0
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"ghost": {
+										"add_mob_effect": {
+											"effect": "invisibility",
+											"target": "holder",
+											"duration": 15,
+											"amplifier": 0
+										}
+									}
+								},
+								"key": "ghost",
+								"children": [
+									{
+										"open": {
+											"add_mob_effect": {
+												"effect": "invisibility",
+												"target": "holder",
+												"duration": 15,
+												"amplifier": 0
+											}
+										},
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"effect": "invisibility",
+											"target": "holder",
+											"duration": 15,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
