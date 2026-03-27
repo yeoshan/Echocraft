@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "echocraft:potion_bottle_ghost",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.potion"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "echocraft:potion_bottle_ghost",
+			"minecraft:display_name": {
+				"value": "Potion of Ghost Step\n§7Speed V (00:15)\nInvisibility (00:15)\nRegeneration (00:15)"
+			},
+			"minecraft:use_animation": "drink",
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6
+			},
+			"minecraft:food": {
+				"can_always_eat": true,
+				"nutrition": 0,
+				"using_converts_to": "minecraft:glass_bottle"
+			},
+			"echocraft:ghost": [
+				{
+					"name": "speed",
+					"duration": 300,
+					"amplifier": 4
+				},
+				{
+					"name": "invisibility",
+					"duration": 300,
+					"amplifier": 0
+				},
+				{
+					"name": "regeneration",
+					"duration": 300,
+					"amplifier": 0
+				}
+			]
+		}
+	}
+}
