@@ -1,8 +1,10 @@
 # Echocraft
 Minecraft bedrock addon that adds deepdark themed tools, weapons, and items
 
-# Target version
+# Version
 1.21.130
+fixed some bugs
+Shakram give blindess for 15 seconds to target
 
 # Credit
 creator: Yeoshan
