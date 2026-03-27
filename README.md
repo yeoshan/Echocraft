@@ -1,8 +1,9 @@
 # Echocraft
 Minecraft bedrock addon that adds deepdark themed tools, weapons, and items
 
-# Target version
+# Version
 1.21.110
+See changelog
 
 # Credit
 creator: Yeoshan
