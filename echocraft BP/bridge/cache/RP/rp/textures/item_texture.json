@@ -1,0 +1,899 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Echocraft rp\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "e72e85cc_9ffd_466d_ac23_2fa81e18bfef",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"echocraft:broken_soul": {
+							"textures": [
+								"textures/items/broken_soul"
+							]
+						},
+						"echocraft:soul_dust": {
+							"textures": [
+								"textures/items/soul_dust"
+							]
+						},
+						"echocraft:echo_sword": {
+							"textures": [
+								"textures/items/echo_sword"
+							]
+						},
+						"echocraft:echo_axe": {
+							"textures": [
+								"textures/items/echo_axe"
+							]
+						},
+						"echocraft:echo_pickaxe": {
+							"textures": [
+								"textures/items/echo_pickaxe"
+							]
+						},
+						"echocraft:echo_hoe": {
+							"textures": [
+								"textures/items/echo_hoe"
+							]
+						},
+						"echocraft:echo_shovel": {
+							"textures": [
+								"textures/items/echo_shovel"
+							]
+						},
+						"echocraft:echo_upgrade": {
+							"textures": [
+								"textures/items/echo_upgrade"
+							]
+						},
+						"echocraft:soul_bottle": {
+							"textures": [
+								"textures/items/soul_bottle"
+							]
+						},
+						"echocraft:potion_bottle_ghost": {
+							"textures": [
+								"textures/items/potion_bottle_ghost"
+							]
+						},
+						"echocraft:warden_heart": {
+							"textures": [
+								"textures/items/warden_heart"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:broken_soul",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/broken_soul"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/broken_soul"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:soul_dust",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/soul_dust"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/soul_dust"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:echo_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/echo_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/echo_sword"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:echo_axe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/echo_axe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/echo_axe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:echo_pickaxe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/echo_pickaxe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/echo_pickaxe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:echo_hoe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/echo_hoe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/echo_hoe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:echo_shovel",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/echo_shovel"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/echo_shovel"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:echo_upgrade",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/echo_upgrade"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/echo_upgrade"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:soul_bottle",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/soul_bottle"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/soul_bottle"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:potion_bottle_ghost",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/potion_bottle_ghost"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/potion_bottle_ghost"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"echocraft:broken_soul": {
+								"textures": [
+									"textures/items/broken_soul"
+								]
+							},
+							"echocraft:soul_dust": {
+								"textures": [
+									"textures/items/soul_dust"
+								]
+							},
+							"echocraft:echo_sword": {
+								"textures": [
+									"textures/items/echo_sword"
+								]
+							},
+							"echocraft:echo_axe": {
+								"textures": [
+									"textures/items/echo_axe"
+								]
+							},
+							"echocraft:echo_pickaxe": {
+								"textures": [
+									"textures/items/echo_pickaxe"
+								]
+							},
+							"echocraft:echo_hoe": {
+								"textures": [
+									"textures/items/echo_hoe"
+								]
+							},
+							"echocraft:echo_shovel": {
+								"textures": [
+									"textures/items/echo_shovel"
+								]
+							},
+							"echocraft:echo_upgrade": {
+								"textures": [
+									"textures/items/echo_upgrade"
+								]
+							},
+							"echocraft:soul_bottle": {
+								"textures": [
+									"textures/items/soul_bottle"
+								]
+							},
+							"echocraft:potion_bottle_ghost": {
+								"textures": [
+									"textures/items/potion_bottle_ghost"
+								]
+							},
+							"echocraft:warden_heart": {
+								"textures": [
+									"textures/items/warden_heart"
+								]
+							}
+						},
+						"key": "echocraft:warden_heart",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warden_heart"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warden_heart"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

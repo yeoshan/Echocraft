@@ -1,0 +1,167 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\broken_soul.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "deded701_e0c5_4209_94fe_1a18624b7524",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:broken_soul"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:creative_category": {
+								"parent": "items"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:broken_soul"
+							},
+							"minecraft:display_name": {
+								"value": "Broken Souls"
+							}
+						}
+					}
+				},
+				"data": "1.20.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:broken_soul"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:creative_category": {
+								"parent": "items"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:broken_soul"
+							},
+							"minecraft:display_name": {
+								"value": "Broken Souls"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:broken_soul"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:creative_category": {
+									"parent": "items"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:broken_soul"
+								},
+								"minecraft:display_name": {
+									"value": "Broken Souls"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:broken_soul"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:broken_soul"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:creative_category": {
+									"parent": "items"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:broken_soul"
+								},
+								"minecraft:display_name": {
+									"value": "Broken Souls"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:broken_soul"
+									},
+									"minecraft:display_name": {
+										"value": "Broken Souls"
+									}
+								},
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:broken_soul"
+									},
+									"minecraft:display_name": {
+										"value": "Broken Souls"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "items"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:broken_soul"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:broken_soul"
+									},
+									"minecraft:display_name": {
+										"value": "Broken Souls"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Broken Souls"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

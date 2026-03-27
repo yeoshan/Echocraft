@@ -1,0 +1,195 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\soul_bottle.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "637a0826_9b88_4299_ba41_421c81b1ab4c",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.30",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:soul_bottle"
+						},
+						"components": {
+							"minecraft:max_stack_size": 16,
+							"minecraft:creative_category": {
+								"parent": "items"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:soul_bottle"
+							},
+							"minecraft:display_name": {
+								"value": "Bottle of Souls"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"can_always_eat": true,
+								"nutrition": 0,
+								"using_converts_to": "minecraft:glass_bottle"
+							}
+						}
+					}
+				},
+				"data": "1.20.30",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.30",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:soul_bottle"
+						},
+						"components": {
+							"minecraft:max_stack_size": 16,
+							"minecraft:creative_category": {
+								"parent": "items"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:soul_bottle"
+							},
+							"minecraft:display_name": {
+								"value": "Bottle of Souls"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"can_always_eat": true,
+								"nutrition": 0,
+								"using_converts_to": "minecraft:glass_bottle"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:soul_bottle"
+							},
+							"components": {
+								"minecraft:max_stack_size": 16,
+								"minecraft:creative_category": {
+									"parent": "items"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:soul_bottle"
+								},
+								"minecraft:display_name": {
+									"value": "Bottle of Souls"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"can_always_eat": true,
+									"nutrition": 0,
+									"using_converts_to": "minecraft:glass_bottle"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:soul_bottle"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:soul_bottle"
+							},
+							"components": {
+								"minecraft:max_stack_size": 16,
+								"minecraft:creative_category": {
+									"parent": "items"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:soul_bottle"
+								},
+								"minecraft:display_name": {
+									"value": "Bottle of Souls"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"can_always_eat": true,
+									"nutrition": 0,
+									"using_converts_to": "minecraft:glass_bottle"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "16",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "items"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:soul_bottle"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Bottle of Souls"
+								}
+							},
+							{
+								"data": "drink",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 16,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:soul_bottle"
+									},
+									"minecraft:display_name": {
+										"value": "Bottle of Souls"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"can_always_eat": true,
+										"nutrition": 0,
+										"using_converts_to": "minecraft:glass_bottle"
+									}
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"can_always_eat": true,
+									"nutrition": 0,
+									"using_converts_to": "minecraft:glass_bottle"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

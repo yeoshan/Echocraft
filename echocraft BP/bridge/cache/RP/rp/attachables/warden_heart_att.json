@@ -1,0 +1,184 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Echocraft rp\\attachables\\warden_heart_att.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "8fc570a0_4564_44e3_960e_b9de62b52bbb",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "echocraft:warden_heart",
+							"materials": {
+								"default": "armor"
+							},
+							"textures": {
+								"default": "textures/models/armor/warden_heart_1"
+							},
+							"geometry": {
+								"default": "geometry.warden.heart"
+							},
+							"scripts": {
+								"pre_animation": {}
+							},
+							"render_controllers": [
+								"controller.render.item_default"
+							]
+						}
+					}
+				},
+				"data": "1.20.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "echocraft:warden_heart",
+							"materials": {
+								"default": "armor"
+							},
+							"textures": {
+								"default": "textures/models/armor/warden_heart_1"
+							},
+							"geometry": {
+								"default": "geometry.warden.heart"
+							},
+							"scripts": {
+								"pre_animation": {}
+							},
+							"render_controllers": [
+								"controller.render.item_default"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:warden_heart",
+								"materials": {
+									"default": "armor"
+								},
+								"textures": {
+									"default": "textures/models/armor/warden_heart_1"
+								},
+								"geometry": {
+									"default": "geometry.warden.heart"
+								},
+								"scripts": {
+									"pre_animation": {}
+								},
+								"render_controllers": [
+									"controller.render.item_default"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "echocraft:warden_heart",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/models/armor/warden_heart_1"
+								}
+							},
+							{
+								"open": {
+									"identifier": "echocraft:warden_heart",
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/models/armor/warden_heart_1"
+									},
+									"geometry": {
+										"default": "geometry.warden.heart"
+									},
+									"scripts": {
+										"pre_animation": {}
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.warden.heart"
+								}
+							},
+							{
+								"open": {
+									"identifier": "echocraft:warden_heart",
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/models/armor/warden_heart_1"
+									},
+									"geometry": {
+										"default": "geometry.warden.heart"
+									},
+									"scripts": {
+										"pre_animation": {}
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": {}
+								}
+							},
+							{
+								"open": {
+									"identifier": "echocraft:warden_heart",
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/models/armor/warden_heart_1"
+									},
+									"geometry": {
+										"default": "geometry.warden.heart"
+									},
+									"scripts": {
+										"pre_animation": {}
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_default"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

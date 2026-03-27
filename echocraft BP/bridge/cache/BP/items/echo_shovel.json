@@ -1,0 +1,1175 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\echo_shovel.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "66c77afd_c68d_4855_ad06_cde583a3904f",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_shovel",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.shovel"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Shovel"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_shovel"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"min": 100,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 1,
+							"minecraft:enchantable": {
+								"slot": "shovel",
+								"value": 13
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"echocraft:broken_soul"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {},
+								"on_hit_block": {}
+							},
+							"minecraft:damage": 5,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:rooted_dirt",
+										"speed": 10
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:dirt"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sand"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:soul_sand"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:soul_soil"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:grass"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:grass_path"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:concretePowder"
+									},
+									{
+										"block": "minecraft:gravel",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:snow",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:snow_layer",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:mud",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:clay",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:muddy_mangrove_roots",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_shovel": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"data": "1.20.20",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.20",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_shovel",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.shovel"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Shovel"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_shovel"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 2150,
+								"damage_chance": {
+									"min": 100,
+									"max": 100
+								}
+							},
+							"minecraft:mining_speed": 1,
+							"minecraft:enchantable": {
+								"slot": "shovel",
+								"value": 13
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"echocraft:broken_soul"
+										],
+										"repair_amount": "query.max_durability"
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {},
+								"on_hit_block": {}
+							},
+							"minecraft:damage": 5,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:rooted_dirt",
+										"speed": 10
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:dirt"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:sand"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:soul_sand"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:soul_soil"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:grass"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:grass_path"
+									},
+									{
+										"speed": 10,
+										"block": "minecraft:concretePowder"
+									},
+									{
+										"block": "minecraft:gravel",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:snow",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:snow_layer",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:mud",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:clay",
+										"speed": 10
+									},
+									{
+										"block": "minecraft:muddy_mangrove_roots",
+										"speed": 10
+									}
+								]
+							}
+						},
+						"events": {
+							"on_tool_use": {
+								"tag:minecraft:is_shovel": {},
+								"tag:minecraft:is_tool": {}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:echo_shovel",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_shovel",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.shovel"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Shovel"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_shovel"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:enchantable": {
+									"slot": "shovel",
+									"value": 13
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 5,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:rooted_dirt",
+											"speed": 10
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:dirt"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sand"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:soul_sand"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:soul_soil"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:grass"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:grass_path"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:concretePowder"
+										},
+										{
+											"block": "minecraft:gravel",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:snow",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:snow_layer",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:mud",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:clay",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:muddy_mangrove_roots",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_shovel": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.shovel"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Echo Shovel"
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:echo_shovel"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shovel"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Shovel"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_shovel"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:enchantable": {
+										"slot": "shovel",
+										"value": 13
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"echocraft:broken_soul"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 5,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:rooted_dirt",
+												"speed": 10
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:dirt"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_soil"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass_path"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:concretePowder"
+											},
+											{
+												"block": "minecraft:gravel",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow_layer",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:mud",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:clay",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:muddy_mangrove_roots",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:durability",
+								"children": [
+									{
+										"data": "2150",
+										"key": "max_durability"
+									},
+									{
+										"open": {
+											"max_durability": 2150,
+											"damage_chance": {
+												"min": 100,
+												"max": 100
+											}
+										},
+										"key": "damage_chance",
+										"is_minified": true,
+										"children": {
+											"min": 100,
+											"max": 100
+										}
+									}
+								]
+							},
+							{
+								"data": "1",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shovel"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Shovel"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_shovel"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:enchantable": {
+										"slot": "shovel",
+										"value": 13
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"echocraft:broken_soul"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 5,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:rooted_dirt",
+												"speed": 10
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:dirt"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_soil"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass_path"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:concretePowder"
+											},
+											{
+												"block": "minecraft:gravel",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow_layer",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:mud",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:clay",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:muddy_mangrove_roots",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "shovel",
+									"value": 13
+								}
+							},
+							{
+								"key": "minecraft:repairable",
+								"is_minified": true,
+								"children": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shovel"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Shovel"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_shovel"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:enchantable": {
+										"slot": "shovel",
+										"value": 13
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"echocraft:broken_soul"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 5,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:rooted_dirt",
+												"speed": 10
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:dirt"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_soil"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass_path"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:concretePowder"
+											},
+											{
+												"block": "minecraft:gravel",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow_layer",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:mud",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:clay",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:muddy_mangrove_roots",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								}
+							},
+							{
+								"data": "5",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shovel"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Shovel"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_shovel"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 2150,
+										"damage_chance": {
+											"min": 100,
+											"max": 100
+										}
+									},
+									"minecraft:mining_speed": 1,
+									"minecraft:enchantable": {
+										"slot": "shovel",
+										"value": 13
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"echocraft:broken_soul"
+												],
+												"repair_amount": "query.max_durability"
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {},
+										"on_hit_block": {}
+									},
+									"minecraft:damage": 5,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:rooted_dirt",
+												"speed": 10
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:dirt"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_sand"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:soul_soil"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:grass_path"
+											},
+											{
+												"speed": 10,
+												"block": "minecraft:concretePowder"
+											},
+											{
+												"block": "minecraft:gravel",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:snow_layer",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:mud",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:clay",
+												"speed": 10
+											},
+											{
+												"block": "minecraft:muddy_mangrove_roots",
+												"speed": 10
+											}
+										]
+									}
+								},
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:rooted_dirt",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:dirt"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:sand"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:soul_sand"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:soul_soil"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:grass"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:grass_path"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"speed": 10,
+													"block": "minecraft:concretePowder"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:gravel",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:snow",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:snow_layer",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:mud",
+													"speed": 10
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:clay",
+													"speed": 10
+												}
+											},
+											{
+												"open": [
+													{
+														"block": "minecraft:rooted_dirt",
+														"speed": 10
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:dirt"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:sand"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:soul_sand"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:soul_soil"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:grass"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:grass_path"
+													},
+													{
+														"speed": 10,
+														"block": "minecraft:concretePowder"
+													},
+													{
+														"block": "minecraft:gravel",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:snow",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:snow_layer",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:mud",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:clay",
+														"speed": 10
+													},
+													{
+														"block": "minecraft:muddy_mangrove_roots",
+														"speed": 10
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:muddy_mangrove_roots",
+													"speed": 10
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_shovel",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.shovel"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Shovel"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_shovel"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 2150,
+									"damage_chance": {
+										"min": 100,
+										"max": 100
+									}
+								},
+								"minecraft:mining_speed": 1,
+								"minecraft:enchantable": {
+									"slot": "shovel",
+									"value": 13
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"echocraft:broken_soul"
+											],
+											"repair_amount": "query.max_durability"
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {},
+									"on_hit_block": {}
+								},
+								"minecraft:damage": 5,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:rooted_dirt",
+											"speed": 10
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:dirt"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:sand"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:soul_sand"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:soul_soil"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:grass"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:grass_path"
+										},
+										{
+											"speed": 10,
+											"block": "minecraft:concretePowder"
+										},
+										{
+											"block": "minecraft:gravel",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:snow",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:snow_layer",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:mud",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:clay",
+											"speed": 10
+										},
+										{
+											"block": "minecraft:muddy_mangrove_roots",
+											"speed": 10
+										}
+									]
+								}
+							},
+							"events": {
+								"on_tool_use": {
+									"tag:minecraft:is_shovel": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_tool_use": {
+										"tag:minecraft:is_shovel": {},
+										"tag:minecraft:is_tool": {}
+									}
+								},
+								"key": "on_tool_use",
+								"is_minified": true,
+								"children": {
+									"tag:minecraft:is_shovel": {},
+									"tag:minecraft:is_tool": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

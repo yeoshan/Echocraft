@@ -1,0 +1,166 @@
+{
+	"file_path": "C:\\Users\\oshan\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Echocraft\\items\\echo_upgrade.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "3998821c_f6ab_4bf1_a9e0_79673845e2a6",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.20.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_upgrade",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:creative_category": {
+								"parent": "items"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_upgrade"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Upgrade"
+							}
+						}
+					}
+				},
+				"data": "1.20.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.20.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "echocraft:echo_upgrade",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:creative_category": {
+								"parent": "items"
+							},
+							"minecraft:icon": {
+								"texture": "echocraft:echo_upgrade"
+							},
+							"minecraft:display_name": {
+								"value": "Echo Upgrade"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "echocraft:echo_upgrade",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "echocraft:echo_upgrade",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:creative_category": {
+									"parent": "items"
+								},
+								"minecraft:icon": {
+									"texture": "echocraft:echo_upgrade"
+								},
+								"minecraft:display_name": {
+									"value": "Echo Upgrade"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_upgrade"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Upgrade"
+									}
+								},
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_upgrade"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Upgrade"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "items"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_upgrade"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Upgrade"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "echocraft:echo_upgrade"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:creative_category": {
+										"parent": "items"
+									},
+									"minecraft:icon": {
+										"texture": "echocraft:echo_upgrade"
+									},
+									"minecraft:display_name": {
+										"value": "Echo Upgrade"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Echo Upgrade"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
