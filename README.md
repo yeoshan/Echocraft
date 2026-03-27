@@ -2,8 +2,8 @@
 Minecraft bedrock addon that adds deepdark themed tools, weapons, and items
 
 # Version
-1.21.130
-fixed some bugs
+- 1.21.130
+- fixed some bugs
 
 # Credit
 creator: Yeoshan
