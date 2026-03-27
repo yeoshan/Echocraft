@@ -2,8 +2,9 @@
 Minecraft bedrock addon that adds deepdark themed tools, weapons, and items
 
 # version
-1.21.120
-Fixed some bugs
+- 1.21.120
+- Fixed some bugs
+- Echo tools no longer appear invisible when thrown in fire or lava
 
 # Credit
 creator: Yeoshan
