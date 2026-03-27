@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "echocraft_rp",
+		"description": "resource pack for echocraft",
+		"uuid": "e53aca04-9d3f-45d5-b32a-a9d94c19b24b",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "9589a43e-edd6-4238-90a4-1f190d8333be",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.7.46"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	}
+}
