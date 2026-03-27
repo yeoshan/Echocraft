@@ -1,0 +1,6 @@
+pack.name=Echocraft rp
+pack.description=Resource pack for Echocraft
+tile.echocraft.echo_table.name=Echo Table
+item.echocraft:chakram=Chakram
+
+entity.echocraft:thrown_chakram.name=Chakram
