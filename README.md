@@ -1,5 +1,7 @@
 # Echocraft
-Minecraft bedrock addon that adds deepdark themed tools, weapons, and items
+Echo Craft was a project created for the Deep Dark Empire (DDE) to give more life and lore to the Ancient Cities. Primarily used in the Bedrock Realm, the original testers were the members of the DDE who came up with lore for not only the Ancient Cities but used Echo Craft to enhance their lore as well.
+
+While the Echo Shard is native to Minecraft, there aren't many uses for it, Echo Craft combines the love for the Deep Dark and Ancient City with the mystery of Minecraft's unknown lore as well as the Deep Dark Empire's exciting narratives.
 
 # Versions
 Each branches are from a different version; the "README" file will have the supported game version.
