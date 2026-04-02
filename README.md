@@ -5,13 +5,14 @@ While the Echo Shard is native to Minecraft, there aren't many uses for it, Echo
 
 # Versions
 Each branches are from a different version; the "README" file will have the supported game version.
+
 Versions prior to 1.1.3 are unstable and might not work. I do not recommend playing those versions.
 Version 1.1.3 and up are playable versions.
 
 # Credit
 creator: Yeoshan
 
-a few scripts: Gamer99 (discord)
+a few scripts: Gamer99
 
 Special thanks to bedrock.dev, The DeepDark Empire and everyone on the bridge Discord server
 
