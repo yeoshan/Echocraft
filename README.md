@@ -10,7 +10,7 @@ Minecraft bedrock addon that adds deepdark themed tools, weapons, and items
 # Credit
 creator: Yeoshan
 
-a few scripts: Gamer99 (discord)
+a few scripts: Gamer99
 
 Special thanks to bedrock.dev, The DeepDark Empire and everyone on the bridge Discord server
 
