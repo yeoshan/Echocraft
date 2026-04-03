@@ -10,11 +10,14 @@ Versions prior to 1.1.3 are unstable and might not work. I do not recommend play
 Version 1.1.3 and up are playable versions.
 
 # Credit
-creator: Yeoshan
+Creator: Yeoshan
 
-a few scripts: Gamer99
+Stairs and slabs: Covyns Studio
 
-Special thanks to bedrock.dev, The DeepDark Empire and everyone on the bridge Discord server
+Spear attachable and animation: jomgaming
 
-feel free to use my code for learning, but I am learning myself, so it might not always be the most efficient way to do things.
-Credit me when using my code or addon in content creation
+A few scripts: Gamer99
+
+special thanks to bedrock.dev, The DeepDark Empire and everyone on the bridge discord server
+
+Feel free to use my code for learning, but I am learning myself so it might not always be the most efficent way to do things. Credit me when using my code or addon in content creation
