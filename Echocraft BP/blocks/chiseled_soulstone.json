@@ -1,0 +1,82 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:block": {
+		"description": {
+			"identifier": "echocraft:chiseled_soulstone",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.stoneBrick"
+			}
+		},
+		"components": {
+			"minecraft:display_name": "echo.tile.chiseled_soulstone.name",
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "echocraft:chiseled_soulstone_top"
+				},
+				"up": {
+					"texture": "echocraft:chiseled_soulstone_top"
+				},
+				"down": {
+					"texture": "echocraft:chiseled_soulstone_top"
+				},
+				"east": {
+					"texture": "echocraft:chiseled_soulstone_side"
+				},
+				"north": {
+					"texture": "echocraft:chiseled_soulstone_side"
+				},
+				"south": {
+					"texture": "echocraft:chiseled_soulstone_side"
+				},
+				"west": {
+					"texture": "echocraft:chiseled_soulstone_side"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/chiseled_soulstone.json",
+			"minecraft:light_dampening": 15,
+			"minecraft:light_emission": 0,
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5,
+				"item_specific_speeds": [
+					{
+						"item": "wooden_pickaxe",
+						"destroy_speed": 1
+					},
+					{
+						"item": "stone_pickaxe",
+						"destroy_speed": 0.4
+					},
+					{
+						"item": "copper_pickaxe",
+						"destroy_speed": 0.3
+					},
+					{
+						"item": "iron_pickaxe",
+						"destroy_speed": 0.27
+					},
+					{
+						"item": "golden_pickaxe",
+						"destroy_speed": 0.13
+					},
+					{
+						"item": "diamond_pickaxe",
+						"destroy_speed": 0.2
+					},
+					{
+						"item": "netherite_pickaxe",
+						"destroy_speed": 0.166
+					},
+					{
+						"item": "echocraft:echo_pickaxe",
+						"destroy_speed": 0.14
+					}
+				]
+			}
+		}
+	}
+}
