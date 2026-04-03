@@ -1,0 +1,18 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "echocraft:soulstone_feature"
+		},
+		"count": 25,
+		"replace_rules": [
+			{
+				"places_block": "echocraft:soulstone",
+				"may_replace": [
+					"minecraft:deepslate",
+					"minecraft:sculk"
+				]
+			}
+		]
+	}
+}
