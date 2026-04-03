@@ -1,0 +1,43 @@
+pack.name=Echocraft rp
+pack.description=Resource pack for Echocraft
+
+##items
+echo.item.broken_soul.name=Âmes brisées
+echo.item.chakram.name=Chakram
+echo.item.echo_axe.name=Hache en écho
+echo.item.echo_hoe.name=Houe en écho
+echo.item.echo_pickaxe.name=Pioche en écho
+echo.item.echo_shield.name=Bouclier en écho
+echo.item.echo_shovel.name=Pelle en écho
+echo.item.echo_spear.name=Lance en écho
+echo.item.echo_sword.name=Épée en écho
+echo.item.echo_upgrade.name=Amélioration d'écho
+echo.item.potion_bottle_ghost.name=Potion de pas de fantôme\n§7Rapidité V (00:15)\nInvisibilité (00:15)\nRégénération (00:15)
+echo.item.potion_bottle_lingering_ghost.name=Potion persistante de pas de fantôme\n§7Rapidité V (00:15)\nInvisibilité (00:15)\nRegénération (00:15)
+echo.item.potion_bottle_splash_ghost.name=Potion jetable de pas de fantôme\n§7Rapidité V (00:15)\nInvisibilité (00:15)\nRegénération (00:15)
+echo.item.soul_bottle.name=Âmes en bouteille
+echo.item.soul_dust.name=Poudre des âmes
+echo.item.spawn_egg.entity.spirit_dog.name=Œuf d'apparition d'âme de loup
+echo.item.warden_heart.name=Cœur de warden
+##La Potion persistante de pas de fantôme et l'âme de loup sont des fonctionnalité non-utilisé
+##Je les gardes au cas ou j'arrive a les faire fonctionner
+
+##blocks
+echo.tile.chiseled_soulstone.name=Pierre des âmes ciselée
+echo.tile.cracked_soulstone_bricks.name=Briques de pierre des âme craquelées
+echo.tile.echo_table.name=Table d'écho
+echo.tile.polished_soulstone_slab.name=Dalle de pierre des âmes polie
+echo.tile.polished_soulstone_stairs.name=Escalier en pierre des âmes polie
+echo.tile.polished_soulstone.name=Pierre des âmes polie
+echo.tile.soulstone_brick_slab.name=Dalle de briques de pierre des âmes
+echo.tile.soulstone_brick_stairs.name=Escalier en briques de pierre des âmes
+echo.tile.soulstone_bricks.name=Briques de pierre des âmes
+echo.tile.soulstone_slab.name=Dalle de pierre des âmes
+echo.tile.soulstone_stairs.name=Escalier en pierre des âmes
+echo.tile.soulstone.name=Pierre des âmes
+
+##entities
+echo.entity.spirit_dog.name=Âme de loup
+echo.entity.thrown_chakram.name=Chakram
+echo.entity.thrown_potion_bottle_lingering_ghost.name=Potion persistante de pas de fantôme
+echo.entity.thrown_potion_bottle_splash_ghost.name=Potion jetable de pas de fantôme
