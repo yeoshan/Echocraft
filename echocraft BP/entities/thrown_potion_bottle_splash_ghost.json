@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "echocraft:thrown_potion_bottle_splash_ghost",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:lingering_potion"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"remove_on_hit": {},
+					"particle_on_hit": {
+						"particle_type": "iconcrack",
+						"num_particles": 6,
+						"on_entity_hit": true,
+						"on_other_hit": true
+					},
+					"spawn_aoe_cloud": {
+						"duration": 1,
+						"radius": 0.5,
+						"particle": "bubble",
+						"color": [
+							6,
+							64,
+							69
+						]
+					}
+				},
+				"hit_sound": "glass",
+				"anchor": 1,
+				"power": 1.5,
+				"gravity": 0.03,
+				"angle_offset": 0,
+				"offset": [
+					0,
+					-0.1,
+					0
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			}
+		}
+	}
+}

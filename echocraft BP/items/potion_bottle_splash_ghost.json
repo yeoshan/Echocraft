@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+			"identifier": "echocraft:potion_bottle_splash_ghost",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.splashPotion"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "echocraft:potion_bottle_splash_ghost",
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 1
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "echocraft:thrown_potion_bottle_splash_ghost"
+			},
+			"minecraft:display_name": {
+				"value": "echo.item.potion_bottle_splash_ghost.name"
+			}
+		}
+	}
+}
