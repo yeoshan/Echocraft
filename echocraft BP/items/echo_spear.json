@@ -1,0 +1,104 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+			"identifier": "echocraft:echo_spear",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.spear"
+			}
+		},
+		"components": {
+			"minecraft:icon": "echocraft:echo_spear",
+			"minecraft:display_name": {
+				"value": "echo.item.echo_spear.name"
+			},
+			"minecraft:enchantable": {
+				"slot": "melee_spear",
+				"value": 15
+			},
+			"minecraft:fire_resistant": {
+				"value": true
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:rarity": "rare",
+			"minecraft:max_stack_size": 1,
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"echocraft:broken_soul"
+						],
+						"repair_amount": 250
+					}
+				]
+			},
+			"minecraft:damage": {
+				"value": 6
+			},
+			"minecraft:durability": {
+				"max_durability": 2150,
+				"damage_chance": {
+					"min": 0,
+					"max": 100
+				}
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 72000,
+				"movement_modifier": 1
+			},
+			"minecraft:kinetic_weapon": {
+				"delay": 8,
+				"reach": {
+					"min": 2,
+					"max": 5
+				},
+				"creative_reach": {
+					"min": 2.0,
+					"max": 7.5
+				},
+				"hitbox_margin": 0.25,
+				"damage_multiplier": 1.5,
+				"damage_conditions": {
+					"max_duration": 200,
+					"min_relative_speed": 4.6
+				},
+				"knockback_conditions": {
+					"max_duration": 120,
+					"min_speed": 5.1
+				},
+				"dismount_conditions": {
+					"max_duration": 50,
+					"min_speed": 8.0
+				}
+			},
+			"minecraft:cooldown": {
+				"duration": 1.15,
+				"category": "minecraft:spear",
+				"type": "attack"
+			},
+			"minecraft:piercing_weapon": {
+				"reach": {
+					"min": 2.0,
+					"max": 5
+				},
+				"hitbox_margin": 0.25
+			},
+			"minecraft:swing_sounds": {
+				"attack_hit": "item.spear.attack_hit",
+				"attack_miss": "item.spear.attack_miss"
+			},
+			"minecraft:swing_duration": {
+				"value": 1.15
+			},
+			"minecraft:use_animation": "spear",
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:netherite_tier",
+					"minecraft:is_spear",
+					"minecraft:transformable_items"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.echo_shield": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+						},
+						{
+							"wield_off_hand_first_person": "c.item_slot == 'off_hand'"
+						}
+					],
+					"transitions": [
+						{
+							"blocking": "query.blocking"
+						},
+						{
+							"third_person": "!c.is_first_person"
+						}
+					]
+				},
+				"blocking": {
+					"animations": [
+						{
+							"block_main_hand_first_person": "variable.is_blocking_main_hand && c.item_slot == 'main_hand'"
+						},
+						{
+							"block_off_hand_first_person": "variable.is_blocking_off_hand && c.item_slot == 'off_hand'"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.blocking"
+						},
+						{
+							"third_person_blocking": "!c.is_first_person"
+						}
+					]
+				},
+				"third_person": {
+					"animations": [
+						{
+							"wield_main_hand_third_person": "c.item_slot == 'main_hand' && !c.is_first_person"
+						},
+						{
+							"wield_off_hand_third_person": "c.item_slot == 'off_hand' && !c.is_first_person"
+						}
+					],
+					"transitions": [
+						{
+							"third_person_blocking": "query.blocking && !c.is_first_person"
+						},
+						{
+							"default": "c.is_first_person"
+						}
+					]
+				},
+				"third_person_blocking": {
+					"animations": [
+						{
+							"block_main_hand_third_person": "variable.is_blocking_main_hand && c.item_slot == 'main_hand' && !c.is_first_person"
+						},
+						{
+							"block_off_hand_third_person": "variable.is_blocking_off_hand && c.item_slot == 'off_hand' && !c.is_first_person"
+						}
+					],
+					"transitions": [
+						{
+							"third_person": "!query.blocking"
+						},
+						{
+							"default": "c.is_first_person"
+						}
+					]
+				}
+			}
+		}
+	}
+}

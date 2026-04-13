@@ -1,0 +1,41 @@
+{
+	"resource_pack_name": "echocraft",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"echocraft:echo_table_top": {
+			"textures": "textures/blocks/echo_table_top"
+		},
+		"echocraft:echo_table_bottom": {
+			"textures": "textures/blocks/echo_table_bottom"
+		},
+		"echocraft:echo_table_front": {
+			"textures": "textures/blocks/echo_table_front"
+		},
+		"echocraft:echo_table_side": {
+			"textures": "textures/blocks/echo_table_side"
+		},
+		"echocraft:armor_warden_heart": {
+			"textures": "textures/entity/attachable/armor_warden_heartv2"
+		},
+		"echocraft:soulstone": {
+			"textures": "textures/blocks/soulstone"
+		},
+		"echocraft:soulstone_bricks": {
+			"textures": "textures/blocks/soulstone_bricks"
+		},
+		"echocraft:chiseled_soulstone_side": {
+			"textures": "textures/blocks/chiseled_soulstone_side"
+		},
+		"echocraft:chiseled_soulstone_top": {
+			"textures": "textures/blocks/chiseled_soulstone_top"
+		},
+		"echocraft:cracked_soulstone_bricks": {
+			"textures": "textures/blocks/cracked_soulstone_bricks"
+		},
+		"echocraft:polished_soulstone": {
+			"textures": "textures/blocks/polished_soulstone"
+		}
+	}
+}
