@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.40",
+	"echocraft:echo_table": {
+		"sound": "wood"
+	},
+	"echocraft:soulstone": {
+		"sound": "tuff",
+		"textures": "echocraft:soulstone"
+	},
+	"echocraft:soulstone_bricks": {
+		"sound": "tuff_bricks",
+		"textures": "echocraft:soulstone_bricks"
+	},
+	"echocraft:chiseled_soulstone": {
+		"sound": "tuff_bricks",
+		"textures": "echocraft:chiseled_soulstone_side"
+	},
+	"echocraft:cracked_soulstone_bricks": {
+		"sound": "tuff_bricks",
+		"textures": "echocraft:cracked_soulstone_bricks"
+	},
+	"echocraft:polished_soulstone": {
+		"sound": "tuff",
+		"textures": "echocraft:polished_soulstone"
+	},
+	"echocraft:soulstone_stairs": {
+		"sound": "tuff",
+		"textures": "echocraft:soulstone"
+	},
+	"echocraft:soulstone_brick_stairs": {
+		"sound": "tuff_bricks",
+		"textures": "echocraft:soulstone_bricks"
+	},
+	"echocraft:polished_soulstone_stairs": {
+		"sound": "tuff",
+		"textures": "echocraft:polished_soulstone"
+	},
+	"echocraft:soulstone_slab": {
+		"sound": "tuff",
+		"textures": "echocraft:soulstone"
+	},
+	"echocraft:soulstone_brick_slab": {
+		"sound": "tuff_bricks",
+		"textures": "echocraft:soulstone_bricks"
+	},
+	"echocraft:polished_soulstone_slab": {
+		"sound": "tuff",
+		"textures": "echocraft:polished_soulstone"
+	},
+	"echocraft:soulstone_wall": {
+		"sound": "tuff",
+		"textures": "echocraft:soulstone"
+	},
+	"echocraft:soulstone_brick_wall": {
+		"sound": "tuff_bricks",
+		"textures": "echocraft:soulstone_bricks"
+	},
+	"echocraft:polished_soulstone_wall": {
+		"sound": "tuff",
+		"textures": "echocraft:polished_soulstone"
+	}
+}
