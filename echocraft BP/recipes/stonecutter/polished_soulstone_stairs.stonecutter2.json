@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "echocraft:polished_soulstone_stairs_stonecutter2"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"count": 1,
+				"item": "echocraft:polished_soulstone"
+			}
+		],
+		"result": {
+			"count": 1,
+			"item": "echocraft:polished_soulstone_stairs"
+		},
+		"unlock": [
+			{
+				"item": "echocraft:polished_soulstone"
+			}
+		]
+	}
+}

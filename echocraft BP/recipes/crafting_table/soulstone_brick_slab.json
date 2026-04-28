@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "echocraft:soulstone_brick_slab"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"S": {
+				"item": "echocraft:soulstone_bricks"
+			}
+		},
+		"pattern": [
+			"SSS"
+		],
+		"result": {
+			"count": 6,
+			"item": "echocraft:soulstone_brick_slab"
+		},
+		"unlock": [
+			{
+				"item": "echocraft:soulstone_bricks"
+			}
+		]
+	}
+}

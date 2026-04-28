@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "echocraft:polished_soulstone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"S": {
+				"item": "echocraft:soulstone"
+			}
+		},
+		"pattern": [
+			"SS",
+			"SS"
+		],
+		"result": {
+			"count": 4,
+			"item": "echocraft:polished_soulstone"
+		},
+		"unlock": [
+			{
+				"item": "echocraft:soulstone"
+			}
+		]
+	}
+}
