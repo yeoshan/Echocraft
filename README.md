@@ -3,6 +3,15 @@ Echo Craft was a project created for the Deep Dark Empire (DDE) to give more lif
 
 While the Echo Shard is native to Minecraft, there aren't many uses for it, Echo Craft combines the love for the Deep Dark and Ancient City with the mystery of Minecraft's unknown lore as well as the Deep Dark Empire's exciting narratives.
 
+# License
+ALL RIGHTS RESERVED
+
+REDISTRIBUTION OF THIS ADDON IS STRICTLY PROHIBITED
+
+DOING SO WOULD BE COPYRIGHT INFRINGEMENT
+
+Echocraft is only available on Curseforge and MCPEDL, do not download from any other platform
+
 # Versions
 Each branches are from a different version; the "README" file will have the supported game version.
 
