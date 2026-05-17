@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:recipe_brewing_mix": {
+		"description": {
+			"identifier": "echocraft:brew_potion_ghost"
+		},
+		"tags": [
+			"brewing_stand"
+		],
+		"input": "minecraft:potion_type:Awkward",
+		"reagent": "echocraft:soul_dust",
+		"output": "echocraft:potion_bottle_ghost"
+	}
+}

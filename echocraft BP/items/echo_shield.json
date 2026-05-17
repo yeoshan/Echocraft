@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+			"identifier": "echocraft:echo_shield",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": "echocraft:shield_item",
+			"minecraft:allow_off_hand": true,
+			"minecraft:display_name": {
+				"value": "echo.item.echo_shield.name"
+			},
+			"minecraft:enchantable": {
+				"slot": "shield",
+				"value": 0
+			},
+			"minecraft:rarity": "uncommon",
+			"minecraft:durability": {
+				"max_durability": 400
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_shield"
+				]
+			}
+		}
+	}
+}

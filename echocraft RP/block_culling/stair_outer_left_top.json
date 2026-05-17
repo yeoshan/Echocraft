@@ -1,0 +1,266 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block_culling_rules": {
+		"description": {
+			"identifier": "echocraft:culling.stair_outer_left_top"
+		},
+		"rules": [
+			{
+				"direction": "north",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 0,
+					"face": "north"
+				}
+			},
+			{
+				"direction": "west",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 0,
+					"face": "west"
+				}
+			},
+			{
+				"direction": "south",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 0,
+					"face": "south"
+				}
+			},
+			{
+				"direction": "east",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 0,
+					"face": "east"
+				}
+			},
+			{
+				"direction": "up",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 0,
+					"face": "up"
+				}
+			},
+			{
+				"direction": "down",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 1,
+					"face": "down"
+				}
+			},
+			{
+				"direction": "north",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 1,
+					"face": "north"
+				}
+			},
+			{
+				"direction": "west",
+				"geometry_part": {
+					"bone": "north",
+					"cube": 1,
+					"face": "west"
+				}
+			},
+			{
+				"direction": "north",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 0,
+					"face": "north"
+				}
+			},
+			{
+				"direction": "west",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 0,
+					"face": "west"
+				}
+			},
+			{
+				"direction": "south",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 0,
+					"face": "south"
+				}
+			},
+			{
+				"direction": "east",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 0,
+					"face": "east"
+				}
+			},
+			{
+				"direction": "up",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 0,
+					"face": "up"
+				}
+			},
+			{
+				"direction": "down",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 1,
+					"face": "down"
+				}
+			},
+			{
+				"direction": "west",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 1,
+					"face": "west"
+				}
+			},
+			{
+				"direction": "south",
+				"geometry_part": {
+					"bone": "west",
+					"cube": 1,
+					"face": "south"
+				}
+			},
+			{
+				"direction": "north",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 0,
+					"face": "north"
+				}
+			},
+			{
+				"direction": "west",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 0,
+					"face": "west"
+				}
+			},
+			{
+				"direction": "south",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 0,
+					"face": "south"
+				}
+			},
+			{
+				"direction": "east",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 0,
+					"face": "east"
+				}
+			},
+			{
+				"direction": "up",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 0,
+					"face": "up"
+				}
+			},
+			{
+				"direction": "down",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 1,
+					"face": "down"
+				}
+			},
+			{
+				"direction": "south",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 1,
+					"face": "south"
+				}
+			},
+			{
+				"direction": "east",
+				"geometry_part": {
+					"bone": "south",
+					"cube": 1,
+					"face": "east"
+				}
+			},
+			{
+				"direction": "north",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 0,
+					"face": "north"
+				}
+			},
+			{
+				"direction": "west",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 0,
+					"face": "west"
+				}
+			},
+			{
+				"direction": "south",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 0,
+					"face": "south"
+				}
+			},
+			{
+				"direction": "east",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 0,
+					"face": "east"
+				}
+			},
+			{
+				"direction": "up",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 0,
+					"face": "up"
+				}
+			},
+			{
+				"direction": "down",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 1,
+					"face": "down"
+				}
+			},
+			{
+				"direction": "north",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 1,
+					"face": "north"
+				}
+			},
+			{
+				"direction": "east",
+				"geometry_part": {
+					"bone": "east",
+					"cube": 1,
+					"face": "east"
+				}
+			}
+		]
+	}
+}
