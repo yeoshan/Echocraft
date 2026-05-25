@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "echocraft:soul_dust",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "echocraft:soul_dust",
+			"minecraft:display_name": {
+				"value": "echo.item.soul_dust.name"
+			}
+		}
+	}
+}

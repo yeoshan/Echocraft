@@ -1,0 +1,581 @@
+{
+	"format_version": "1.26.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "echocraft:polished_soulstone_stairs",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.stairs"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				},
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:vertical_half"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:display_name": "echo.tile.polished_soulstone_stairs.name",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:loot": "loot_tables/blocks/polished_soulstone_stairs.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5,
+				"item_specific_speeds": [
+					{
+						"item": "wooden_pickaxe",
+						"destroy_speed": 1
+					},
+					{
+						"item": "stone_pickaxe",
+						"destroy_speed": 0.4
+					},
+					{
+						"item": "copper_pickaxe",
+						"destroy_speed": 0.3
+					},
+					{
+						"item": "iron_pickaxe",
+						"destroy_speed": 0.27
+					},
+					{
+						"item": "golden_pickaxe",
+						"destroy_speed": 0.13
+					},
+					{
+						"item": "diamond_pickaxe",
+						"destroy_speed": 0.2
+					},
+					{
+						"item": "netherite_pickaxe",
+						"destroy_speed": 0.166
+					},
+					{
+						"item": "echocraft:echo_pickaxe",
+						"destroy_speed": 0.14
+					}
+				]
+			},
+			"minecraft:flammable": false,
+			"minecraft:geometry": {
+				"bone_visibility": {
+					"north": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:vertical_half') == 'bottom'",
+					"west": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:vertical_half') == 'bottom'",
+					"south": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:vertical_half') == 'bottom'",
+					"east": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:vertical_half') == 'bottom'"
+				},
+				"identifier": "geometry.stair_bottom",
+				"uv_lock": true
+			},
+			"minecraft:item_visual": {
+				"geometry": {
+					"identifier": "geometry.stair_icon"
+				},
+				"material_instances": {
+					"*": {
+						"texture": "echocraft:polished_soulstone"
+					}
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"ambient_occlusion": true,
+					"face_dimming": true,
+					"texture": "echocraft:polished_soulstone"
+				}
+			},
+			"minecraft:movable": {
+				"movement_type": "push_pull"
+			},
+			"minecraft:precipitation_interactions": {
+				"precipitation_behavior": "obstruct_rain"
+			},
+			"minecraft:selection_box": true,
+			"tag:minecraft:cornerable_stairs": {},
+			"tag:stone": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:vertical_half') == 'bottom'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								-8,
+								8,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								8
+							]
+						},
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"north"
+						]
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"down",
+									"north"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:vertical_half') == 'bottom'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								0,
+								8,
+								-8
+							],
+							"size": [
+								8,
+								8,
+								16
+							]
+						},
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"west"
+						]
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"down",
+									"west"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:vertical_half') == 'bottom'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								-8,
+								8,
+								0
+							],
+							"size": [
+								16,
+								8,
+								8
+							]
+						},
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"south"
+						]
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"down",
+									"south"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:vertical_half') == 'bottom'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								-8,
+								8,
+								-8
+							],
+							"size": [
+								8,
+								8,
+								16
+							]
+						},
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"east"
+						]
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"down",
+									"east"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								8
+							]
+						},
+						{
+							"origin": [
+								-8,
+								8,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"north"
+						]
+					},
+					"minecraft:geometry": {
+						"bone_visibility": {
+							"north": true,
+							"west": false,
+							"south": false,
+							"east": false
+						},
+						"identifier": "geometry.stair_top",
+						"uv_lock": true
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"north"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"texture": "echocraft:polished_soulstone"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								0,
+								0,
+								-8
+							],
+							"size": [
+								8,
+								8,
+								16
+							]
+						},
+						{
+							"origin": [
+								-8,
+								8,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"west"
+						]
+					},
+					"minecraft:geometry": {
+						"bone_visibility": {
+							"north": false,
+							"west": true,
+							"south": false,
+							"east": false
+						},
+						"identifier": "geometry.stair_top",
+						"uv_lock": true
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"west"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"texture": "echocraft:polished_soulstone"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								-8,
+								0,
+								0
+							],
+							"size": [
+								16,
+								8,
+								8
+							]
+						},
+						{
+							"origin": [
+								-8,
+								8,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"south"
+						]
+					},
+					"minecraft:geometry": {
+						"bone_visibility": {
+							"north": false,
+							"west": false,
+							"south": true,
+							"east": false
+						},
+						"identifier": "geometry.stair_top",
+						"uv_lock": true
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"south"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"texture": "echocraft:polished_soulstone"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:collision_box": [
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								8,
+								8,
+								16
+							]
+						},
+						{
+							"origin": [
+								-8,
+								8,
+								-8
+							],
+							"size": [
+								16,
+								8,
+								16
+							]
+						}
+					],
+					"minecraft:connection_rule": {
+						"accepts_connections_from": "all",
+						"enabled_directions": [
+							"east"
+						]
+					},
+					"minecraft:geometry": {
+						"bone_visibility": {
+							"north": false,
+							"west": false,
+							"south": false,
+							"east": true
+						},
+						"identifier": "geometry.stair_top",
+						"uv_lock": true
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"can_contain_liquid": true,
+								"liquid_type": "water",
+								"on_liquid_touches": "blocking",
+								"stops_liquid_flowing_from_direction": [
+									"east"
+								],
+								"use_liquid_clipping": true
+							}
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"texture": "echocraft:polished_soulstone"
+						}
+					}
+				}
+			}
+		]
+	}
+}
